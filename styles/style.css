@@ -257,3 +257,53 @@ textarea {
   width: 100%;
 }
 /* =============== */
+
+/* Footer css */
+#footer-part {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+#footer-part .logo a {
+  color: rgb(78, 71, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 900;
+  text-decoration: none;
+}
+#footer-part .footer-content {
+  padding: 100px 305px;
+}
+#footer-part .footer-content p {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0 20px;
+}
+#footer-part .footer-content .menu ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+#footer-part .footer-content .menu ul li a {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#footer-part .footer-content .menu ul li a:hover {
+  color: black;
+}
+#footer-part .copy-right {
+  padding: 10px 0;
+  background: rgba(78, 71, 255, 0.1);
+}
+#footer-part .copy-right p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
