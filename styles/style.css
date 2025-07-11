@@ -62,3 +62,198 @@ header {
   margin-bottom: 37px;
 }
 /* ==================  */
+
+/* Action Section css */
+#action-part {
+  margin: 100px 0;
+}
+#action-part .action-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: center;
+}
+#action-part .action-content .left {
+  width: 50%;
+}
+#action-part .action-content .left h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+}
+#action-part .action-content .left p {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 23px 0;
+}
+#action-part .action-content .right {
+  width: 50%;
+}
+#action-part .action-content .right img {
+  width: 100%;
+  border-radius: 48px;
+}
+/* ========== */
+
+/* Productive Users Section css */
+#productive-users-part {
+  margin: 100px 0;
+}
+#productive-users-part .productive-user-content {
+  padding: 50px 80px;
+  text-align: center;
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+}
+#productive-users-part .productive-user-content h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#productive-users-part .productive-user-content .users-number {
+  display: flex;
+  justify-content: space-between;
+}
+#productive-users-part .productive-user-content .users h2 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+}
+#productive-users-part .productive-user-content .users p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ==================== */
+
+/* Users’ Feedback Section css */
+#feedback-part {
+  margin: 100px 0;
+}
+#feedback-part .feedback-content .title h2 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#feedback-part .feedback-content .users-feedback {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#feedback-part .feedback-content .users-feedback .user-item {
+  padding: 24px;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#feedback-part .feedback-content .users-feedback .user-item .rating-icon {
+  display: flex;
+  gap: 4px;
+}
+#feedback-part .feedback-content .users-feedback .user-item h3 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+#feedback-part .feedback-content .users-feedback .user-item p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+#feedback-part .feedback-content .users-feedback .user-item .user {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+/* ===================== */
+
+/* focus-better-part css  */
+#focus-better-part {
+  margin: 100px 0;
+}
+#focus-better-part .focus-better-content {
+  padding: 71px 150px 71px 150px;
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+#focus-better-part .focus-better-content h2 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+}
+#focus-better-part .focus-better-content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#focus-better-part .focus-better-content .image img {
+  margin-top: 20px;
+  border-radius: 48px;
+}
+/* ============= */
+
+/* getin-touch-part css  */
+#getin-touch-part {
+  margin: 50px 0;
+}
+#getin-touch-part .getin-touch-content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+#getin-touch-part .getin-touch-content .left {
+  width: 50%;
+}
+#getin-touch-part .getin-touch-content .left h2 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 97px;
+  font-weight: 700;
+}
+#getin-touch-part .getin-touch-content .right {
+  width: 50%;
+}
+#getin-touch-part .getin-touch-content .right label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+#getin-touch-part .getin-touch-content .right input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  margin: 8px 0 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+#getin-touch-part .getin-touch-content .right input[type='submit'] {
+  width: 100%;
+}
+/* =============== */
